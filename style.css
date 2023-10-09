@@ -1,0 +1,156 @@
+:root {
+    --color-primary: #095;
+    --color-secundary: #dfd;
+    --color-bg: #fff;
+    --color-font: #111;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-font);
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+a, h1, h2 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+a {
+    color: var(--color-primary);
+}
+
+header a, footer a {
+    color: var(--color-bg);
+    text-decoration: none;
+    font-weight: bolder;
+    transition: color .3s;
+}
+
+header a:hover, footer a:hover {
+    color: var(--color-secundary);
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+/* HEADER */
+body {
+    background: var(--color-bg);
+    color: var(--color-font);
+}
+
+header {
+    height: 120px;
+    text-align: center;
+    background: var(--color-secundary);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+/* MENU */
+nav {
+    text-align: center;
+    vertical-align: bottom;
+    word-spacing: 30px;
+    Padding: 10px;
+
+    background: var(--color-primary);
+}
+
+/* LAYOUT */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-box {
+    width: 80%;
+    max-width: 1000px;
+    padding: 50px 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.content-box section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: var(--color-primary);
+    word-spacing: 30px;
+
+    position: fixed;
+    bottom: 0;
+}
+
+/* CALTULATOR */
+#calculator {
+    margin-left: 20px;
+}
+
+#calculator button {
+    width: 100px;
+    height: 20px;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    border: 1px solid var(--color-bg);
+    border-radius: 3px;
+    transition: background .2s;
+}
+
+#calculator button:hover {
+    background: var(--color-secundary);
+    color: var(--color-font);
+    border: 1px solid var(--color-font);
+}
+
+#answer {
+    font-weight: 500;
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+/* PROFILE */
+.profile-box {
+    min-width: 300px;
+    padding: 50px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-box img {
+    width: 200px;
+    border-radius: 50%;
+}
