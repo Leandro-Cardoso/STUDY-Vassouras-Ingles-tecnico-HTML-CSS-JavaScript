@@ -19,6 +19,7 @@ A segunda atividade é criar um site utilizando HTML, CSS e JavaScript através 
 
 ### ⚙️ Tecnologias:
 * HTML e CSS
+* JavaScript
 * Git e GitHub
 
 <div align="center">
